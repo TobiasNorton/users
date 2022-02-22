@@ -2,7 +2,6 @@ const graphql = require('graphql');
 const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLSchema, GraphQLList } = graphql;
 const axios = require('axios');
 
-// Adding this comment as a test
 const CompanyType = new GraphQLObjectType({
   name: 'Company', // capitalized by convention
   // We are trying to access UserType before it's initialized, which throws an error.
