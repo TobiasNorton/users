@@ -1,0 +1,18 @@
+{
+  "users": [
+    { "id": "23", "firstName": "Bill", "age": 23, "companyId": "1" },
+    { "id": "45", "firstName": "Mark", "age": 46, "companyId": "2" },
+    { "id": "45", "firstName": "Emily", "age": 46, "companyId": "3" },
+    { "id": "45", "firstName": "George", "age": 46, "companyId": "2" },
+    { "id": "70", "firstName": "Heather", "age": 42, "companyId": "1" }
+  ],
+  "companies": [
+    { "id": "1", "name": "Rosetta Stone", "description": "Language learning" },
+    {
+      "id": "1",
+      "name": "Mental Health Institute of Colorado",
+      "description": "Mental Health Services"
+    },
+    { "id": "3", "name": "Whole Foods", "description": "Groceries" }
+  ]
+}
